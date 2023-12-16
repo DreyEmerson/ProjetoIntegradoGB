@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>PROJECT DOCUMENTATION</title>
+<meta name="generator" content="https://txt2tags.org">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+blockquote{margin: 1em 2em; border-left: 2px solid #999;
+  font-style: oblique; padding-left: 1em;}
+blockquote:first-letter{margin: .2em .1em .1em 0; font-size: 160%; font-weight: bold;}
+blockquote:first-line{font-weight: bold;}
+body{font-family: sans-serif;}
+hr{background-color:#000;border:0;color:#000;}
+hr.heavy{height:2px;}
+hr.light{height:1px;}
+img{border:0;display:block;}
+img.right{margin:0 0 0 auto;}
+img.center{border:0;margin:0 auto;}
+table{border-collapse: collapse;}
+table th,table td{padding: 3px 7px 2px 7px;}
+table th{background-color: lightgrey;}
+table.center{margin-left:auto; margin-right:auto;}
+.center{text-align:center;}
+.right{text-align:right;}
+.left{text-align:left;}
+.tableborder,.tableborder td,.tableborder th{border:1px solid #000;}
+.underline{text-decoration:underline;}
+</style>
+</head>
+<body>
+<header>
+<hgroup>
+<h1>PROJECT DOCUMENTATION</h1>
+<h2>UniEmbedded Solutions</h2>
+<h3>Document Version: 1.1</h3>
+</hgroup>
+</header>
+
+
+<nav>
+  <div class="body">
+    <ol>
+      <li><a href="#toc1">Contextualização do Projeto</a></li>
+	  <li><a href="#toc2">Objetivo do Projeto</a></li>
+	  <li><a href="#toc3">Requisitos</a></li>
+      <li><a href="#toc6">Premissas e Restrições</a></li>
+      <li><a href="#toc9">Desenvolvimento</a></li>
+      <li><a href="#toc12">Testes</a></li>	  
+      <li><a href="#toc16">Conclusão</a></li>
+      <li><a href="#toc18">Anexos</a></li>
+    </ol>
+  </div>
+</nav>
+  
+  <div class="body">
+  <section id="toc1">
+    <h1>1. Contextualização do Projeto</h1>
+    <p>
+      <strong>Projeto</strong>: Sistema de Monitoramento de Saúde Portátil
+    </p>
+    <p>
+      A UniEmbedded Solutions é especializada no desenvolvimento de sistemas embarcados de alto desempenho. Nossos produtos são usados em diversos setores, incluindo automação industrial, eletrônicos de consumo, automotivo, saúde e muito mais.
+    </p>
+
+    <section id="toc2">
+      <h2>Objetivo do Projeto</h2>
+      <p>
+        <strong>Objetivo Geral</strong>: Desenvolver um sistema embarcado portátil que possa monitorar diferentes parâmetros de saúde, como frequência cardíaca, temperatura corporal e atividade física. Essas informações devem ser facilmente acessíveis ao usuário e, opcionalmente, compartilháveis com profissionais de saúde.
+      </p>
+    </section>
+	</section>
+	<section id="toc3">
+        <h1>2. Requisitos</h1>
+
+        <section id="toc4">
+          <h2>Requisitos</h2>
+          <p>
+            Desenvolver um sistema embarcado portátil que possa monitorar diferentes parâmetros de saúde, como frequência cardíaca, temperatura corporal e atividade física. Essas informações devem ser facilmente acessíveis ao usuário e, opcionalmente, compartilháveis com profissionais de saúde.
+          </p>
+        </section>
+
+      </section>
+
+      <section id="toc6">
+        <h1>3. Premissas e Restrições</h1>
+
+        <section id="toc7">
+          <h2>3.1. Premissas</h2>
+          <p>
+            Premissas feitas durante o desenvolvimento incluem:
+          </p>
+          <ul>
+            <li>usuários terão acesso a uma conectividade à internet confiável para permitir o monitoramento e controle em tempo real do sistema. Isso é crucial para garantir a transmissão eficiente de dados entre os dispositivos vestíveis e a plataforma em nuvem.</li>
+			<li>Os dispositivos IoT utilizados seguirão e serão compatíveis com os padrões da indústria. Isso é essencial para garantir a interoperabilidade dos dispositivos e a integração bem-sucedida com o sistema, evitando problemas de compatibilidade.</li>
+			<li>Os dados de consumo de energia fornecidos pelos usuários serão precisos e atualizados.</li>
+          </ul>
+        </section>
+
+        <section id="toc8">
+          <h2>3.2. Restrições</h2>
+          <p>
+            Restrições para o desenvolvimento e implementação do projeto incluem:
+          </p>
+          <ul>
+			<li>restrições financeiras para aquisição de componentes, tecnologias e desenvolvimento de software. Essas restrições podem impactar diretamente nas escolhas de hardware e software durante o desenvolvimento.</li>
+			<li>O projeto deve aderir estritamente às regulamentações de saúde e privacidade de dados. Restrições relacionadas à coleta, armazenamento e transmissão de dados de saúde dos usuários devem ser cuidadosamente consideradas para garantir conformidade com normas e leis aplicáveis.</li>
+			<li>O sistema está sujeito a restrições de compatibilidade com tecnologias existentes. Isso inclui a necessidade de integração com plataformas de saúde digitais, dispositivos móveis e outros sistemas de monitoramento. Garantir a interoperabilidade é vital para o sucesso do projeto.</li>
+          </ul>
+        </section>
+      </section>
+	  
+      <section id="toc9">
+        <h1>6. Desenvolvimento</h1>
+
+        <section id="toc10">
+          <h2>6.1. Projeto de Hardware</h2>
+          <p>
+            Engenheiros de hardware devem projetar componentes físicos que sejam compactos, eficientes e seguros para o usuário. Isso inclui a seleção de sensores precisos para monitoramento de saúde, o design de uma placa de circuito eficiente e a escolha de materiais ergonomicamente amigáveis.
+          </p>
+        </section>
+
+        <section id="toc11">
+          <h2>6.2. Projeto de Software</h2>
+          <p>
+            Desenvolver um software intuitivo que colete, processe e exiba os dados de saúde de maneira compreensível para o usuário. Isso envolve a programação de microcontroladores para a coleta de dados, a criação de interfaces de usuário amigáveis e a integração de protocolos de comunicação seguros para permitir o compartilhamento de dados com dispositivos médicos ou aplicativos de saúde.
+          </p>
+        </section>
+      </section>
+	<section id="toc12">
+  <h1>7. Testes</h1>
+
+  <section id="toc13">
+    <h2>7.1. Testes de Acuracidade Biométrica</h2>
+    <p>
+      Avaliação da precisão dos sensores biométricos em medir sinais vitais, como frequência cardíaca, pressão arterial e saturação de oxigênio.
+    </p>
+  </section>
+
+  <section id="toc14">
+    <h2>7.2. Testes de Conectividade</h2>
+    <p>
+      Garantia de conectividade estável entre os dispositivos vestíveis e o aplicativo móvel associado.
+    </p>
+  </section>
+
+  <section id="toc15">
+    <h2>7.3. Testes de Integridade de Dados</h2>
+    <p>
+      Verificação da precisão na coleta, transmissão e armazenamento dos dados de saúde.
+    </p>
+  </section>
+</section>
+
+<section id="toc16">
+  <h1>9. Conclusão</h1>
+
+  <section id="toc17">
+    <h2>9.1 Conclusão do Projeto</h2>
+    <p>
+      O Sistema de Monitoramento de Saúde Portátil demonstra eficácia na coleta e transmissão de dados biométricos, proporcionando aos usuários uma visão abrangente de sua saúde em tempo real. A realização dos testes evidenciou a confiabilidade das leituras e a integridade dos dados, enquanto os diagramas oferecem uma compreensão clara da arquitetura e do fluxo de informações.
+    </p>
+  </section>
+</section>
+
+<section id="toc18">
+  <h1>10. Anexos</h1>
+
+  <p>
+    Anexo 
+  </p>
+</section>
+</div>
+</body>
+</html>
